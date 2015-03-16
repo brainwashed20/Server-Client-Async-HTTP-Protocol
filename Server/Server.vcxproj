@@ -76,20 +76,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Requirements.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asynchronus.h" />
-    <ClInclude Include="Compatibility.h" />
-    <ClInclude Include="Connection.h" />
+    <ClInclude Include="ClientConnection.h" />
+    <ClInclude Include="Includes.h" />
     <ClInclude Include="Interprocess.h" />
     <ClInclude Include="Linker.h" />
+    <ClInclude Include="Package.h" />
     <ClInclude Include="Requirements.h" />
-    <ClInclude Include="Stock.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="TgaManipulator.h" />
+    <ClInclude Include="Typedefs.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

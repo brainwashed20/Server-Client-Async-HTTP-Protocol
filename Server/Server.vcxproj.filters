@@ -38,5 +38,11 @@
     <ClInclude Include="Compatibility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
